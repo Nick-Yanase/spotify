@@ -1,5 +1,5 @@
 import React from 'react'
-import logoSpotify from '../../assets/logo/spotify-logo.png'
+import logoSpotify from '../assets/logo/spotify-logo.png'
 const Header = () => {
   return (
     <header className='header'>
@@ -10,5 +10,4 @@ const Header = () => {
     </header>
   )
 }
-
 export default Header

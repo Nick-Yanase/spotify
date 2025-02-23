@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <StrictMode>  {/*  renderiza todos os componentes 2 vezes, para testar a robutez projeto, pois se tiver erro, aprecerá 2 vezes, fazendo com que não passe despercebido */}
     <App /> {/*  este app esta sendo rederizadop na div com id=root */}
   </StrictMode>,
 )
