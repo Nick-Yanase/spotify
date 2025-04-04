@@ -1,8 +1,9 @@
 import React from "react";
 import SingleItem from "./SingleItem";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const ItemList = ({ items, title, itemsArray,  path, idPath }) => {
+  const {pathName} = useLocation() //pega o caminho do arquivo para podemos renderizar mais itens nesta url
   return (
     <div className="item-list">
       <div className="item-list__header">

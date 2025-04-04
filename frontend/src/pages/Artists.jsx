@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
+import Main from "../components/Main";
 
 export const Artists = () => {
-  return (
-    <div>Artists</div>
-  )
-}
+  return <Main type="artists" />;
+};
